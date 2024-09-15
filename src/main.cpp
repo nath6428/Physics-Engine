@@ -1,6 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include "object.hpp"
-`
+
 
 int main() {
     
