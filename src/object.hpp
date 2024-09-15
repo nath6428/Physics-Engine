@@ -24,8 +24,8 @@ public:
 
         int radius = 50;
         sf::CircleShape circle(radius);
-        circle.setFillColor(this->color);
-        circle.setPosition(this->x, this->y); // Center the circle in the window
+        circle.setFillColor(color);
+        circle.setPosition(x + radius, y + radius); // Center the circle in the window
         return circle;
     
     }

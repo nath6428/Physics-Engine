@@ -1,16 +1,13 @@
 #include <SFML/Graphics.hpp>
 #include "object.hpp"
-
-
-
-
-
+`
 
 int main() {
-
-    sf::RenderWindow window(sf::VideoMode(600, 600), "SFML Graphics Example");
+    
+    sf::RenderWindow window(sf::VideoMode(600, 600), "Physics Engine"); // 1px = 0.1 metres
+    window.setFramerateLimit(60);
     sf::Clock clock;
-    Object object1(50, 50);
+    Object object1(50, 400);
 
     // Main loop
     while (window.isOpen()) {
